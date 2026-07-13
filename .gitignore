@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Dataset files
+data/
+
+# Saved trained models
+models/
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Secret configuration files
+.env
+
+# VS Code and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db

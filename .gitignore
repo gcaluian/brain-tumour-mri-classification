@@ -27,4 +27,5 @@ models/
 .DS_Store
 Thumbs.db
 
-processed_data/
+processed_data_cropped/
+processed_data_uncropped/

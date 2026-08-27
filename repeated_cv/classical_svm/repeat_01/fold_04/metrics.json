@@ -1,0 +1,25 @@
+{
+    "model": "HOG_GLCM_SVM",
+    "repeat": 1,
+    "fold": 4,
+    "split_seed": 202601,
+    "inner_cv_seed": 303104,
+    "model_seed": 404104,
+    "model_is_stochastic": false,
+    "n_outer_train": 4480,
+    "n_outer_validation": 1120,
+    "best_parameters": {
+        "svm_classifier__C": 10.0,
+        "svm_classifier__gamma": "scale"
+    },
+    "best_inner_macro_f1": 0.8851893487497815,
+    "accuracy": 0.9303571428571429,
+    "balanced_accuracy": 0.9303571428571429,
+    "macro_precision": 0.930114870098798,
+    "macro_recall": 0.9303571428571429,
+    "macro_f1": 0.930009477790349,
+    "tuning_search_seconds": 2423.4965234541305,
+    "final_refit_seconds": 61.14579224586487,
+    "prediction_seconds": 23.47377889999916,
+    "total_fold_seconds": 2508.1160945999945
+}

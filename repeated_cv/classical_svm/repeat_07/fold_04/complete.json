@@ -1,0 +1,7 @@
+{
+    "status": "completed",
+    "model": "HOG_GLCM_SVM",
+    "repeat": 7,
+    "fold": 4,
+    "required_outputs_verified": true
+}

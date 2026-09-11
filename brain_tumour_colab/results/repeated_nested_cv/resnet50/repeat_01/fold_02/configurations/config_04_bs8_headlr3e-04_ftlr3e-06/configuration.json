@@ -1,0 +1,15 @@
+{
+    "model": "ResNet50",
+    "repeat": 1,
+    "fold": 2,
+    "configuration_number": 4,
+    "configuration_id": "config_04_bs8_headlr3e-04_ftlr3e-06",
+    "batch_size": 8,
+    "head_learning_rate": 0.0003,
+    "fine_tune_learning_rate": 3e-06,
+    "model_seed": 505102,
+    "inner_split_seed": 606102,
+    "model_training_images": 4032,
+    "internal_validation_images": 448,
+    "outer_validation_used_for_selection": false
+}

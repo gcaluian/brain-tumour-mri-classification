@@ -1,0 +1,29 @@
+comparison_id,model_a,model_b,n_pairs,model_a_higher_repeats,model_b_higher_repeats,equal_repeats,mean_difference_a_minus_b,median_difference_a_minus_b,higher_mean_model,wilcoxon_W,p_value,p_below_0_05
+1,HOG+GLCM + SVM,HOG+GLCM + RF,10,10,0,0,0.05009427733750001,0.049951830196,HOG+GLCM + SVM,0.0,0.001953125,True
+2,HOG+GLCM + SVM,ResNet50 End-to-End,10,0,10,0,-0.040551145731299996,-0.040753329071999994,ResNet50 End-to-End,0.0,0.001953125,True
+3,HOG+GLCM + SVM,EfficientNetB0 End-to-End,10,0,10,0,-0.039784148565399996,-0.038855826610000005,EfficientNetB0 End-to-End,0.0,0.001953125,True
+4,HOG+GLCM + SVM,ResNet50 Features + SVM,10,0,10,0,-0.043304183803399995,-0.043201084896,ResNet50 Features + SVM,0.0,0.001953125,True
+5,HOG+GLCM + SVM,ResNet50 Features + RF,10,0,10,0,-0.0043488286891,-0.0035245417765,ResNet50 Features + RF,0.0,0.001953125,True
+6,HOG+GLCM + SVM,EfficientNetB0 Features + SVM,10,0,10,0,-0.0499028323931,-0.04989309853,EfficientNetB0 Features + SVM,0.0,0.001953125,True
+7,HOG+GLCM + SVM,EfficientNetB0 Features + RF,10,0,10,0,-0.0036443878605,-0.0030349730804999997,EfficientNetB0 Features + RF,0.0,0.001953125,True
+8,HOG+GLCM + RF,ResNet50 End-to-End,10,0,10,0,-0.09064542306869999,-0.09137088943999999,ResNet50 End-to-End,0.0,0.001953125,True
+9,HOG+GLCM + RF,EfficientNetB0 End-to-End,10,0,10,0,-0.0898784259029,-0.088842874293,EfficientNetB0 End-to-End,0.0,0.001953125,True
+10,HOG+GLCM + RF,ResNet50 Features + SVM,10,0,10,0,-0.09339846114090002,-0.09307098609100001,ResNet50 Features + SVM,0.0,0.001953125,True
+11,HOG+GLCM + RF,ResNet50 Features + RF,10,0,10,0,-0.0544431060266,-0.0539385972415,ResNet50 Features + RF,0.0,0.001953125,True
+12,HOG+GLCM + RF,EfficientNetB0 Features + SVM,10,0,10,0,-0.09999710973050001,-0.09936927010150001,EfficientNetB0 Features + SVM,0.0,0.001953125,True
+13,HOG+GLCM + RF,EfficientNetB0 Features + RF,10,0,10,0,-0.05373866519790001,-0.054397896687,EfficientNetB0 Features + RF,0.0,0.001953125,True
+14,ResNet50 End-to-End,EfficientNetB0 End-to-End,10,7,3,0,0.0007669971659999998,0.0010440775,ResNet50 End-to-End,20.0,0.4921875,False
+15,ResNet50 End-to-End,ResNet50 Features + SVM,10,3,7,0,-0.0027530380721999996,-0.0023099240815,ResNet50 Features + SVM,12.0,0.130859375,False
+16,ResNet50 End-to-End,ResNet50 Features + RF,10,10,0,0,0.036202317042099995,0.037144436207,ResNet50 End-to-End,0.0,0.001953125,True
+17,ResNet50 End-to-End,EfficientNetB0 Features + SVM,10,1,9,0,-0.0093516866618,-0.008261935365,EfficientNetB0 Features + SVM,1.0,0.00390625,True
+18,ResNet50 End-to-End,EfficientNetB0 Features + RF,10,10,0,0,0.0369067578709,0.036859879072500004,ResNet50 End-to-End,0.0,0.001953125,True
+19,EfficientNetB0 End-to-End,ResNet50 Features + SVM,10,1,9,0,-0.0035200352379999994,-0.004084481832,ResNet50 Features + SVM,1.0,0.00390625,True
+20,EfficientNetB0 End-to-End,ResNet50 Features + RF,10,10,0,0,0.0354353198763,0.035860840686,EfficientNetB0 End-to-End,0.0,0.001953125,True
+21,EfficientNetB0 End-to-End,EfficientNetB0 Features + SVM,10,0,10,0,-0.010118683827699999,-0.009794188494,EfficientNetB0 Features + SVM,0.0,0.001953125,True
+22,EfficientNetB0 End-to-End,EfficientNetB0 Features + RF,10,10,0,0,0.03613976070489999,0.037070428683499995,EfficientNetB0 End-to-End,0.0,0.001953125,True
+23,ResNet50 Features + SVM,ResNet50 Features + RF,10,10,0,0,0.0389553551143,0.0388814400485,ResNet50 Features + SVM,0.0,0.001953125,True
+24,ResNet50 Features + SVM,EfficientNetB0 Features + SVM,10,0,10,0,-0.0065986485897,-0.006100114655000001,EfficientNetB0 Features + SVM,0.0,0.001953125,True
+25,ResNet50 Features + SVM,EfficientNetB0 Features + RF,10,10,0,0,0.0396597959429,0.040095959286,ResNet50 Features + SVM,0.0,0.001953125,True
+26,ResNet50 Features + RF,EfficientNetB0 Features + SVM,10,0,10,0,-0.0455540037039,-0.04566094155,EfficientNetB0 Features + SVM,0.0,0.001953125,True
+27,ResNet50 Features + RF,EfficientNetB0 Features + RF,10,6,4,0,0.0007044408286,0.000429559912,ResNet50 Features + RF,16.0,0.275390625,False
+28,EfficientNetB0 Features + SVM,EfficientNetB0 Features + RF,10,10,0,0,0.0462584445326,0.046103215079,EfficientNetB0 Features + SVM,0.0,0.001953125,True

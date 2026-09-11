@@ -1,0 +1,9 @@
+{
+    "status": "completed",
+    "repeat": 5,
+    "fold": 4,
+    "configuration_id": "config_09_bs32_headlr1e-03_ftlr1e-05",
+    "internal_macro_f1": 0.9553654547404548,
+    "outer_validation_used": false,
+    "completed_at": "2026-08-26T20:12:42.409471"
+}

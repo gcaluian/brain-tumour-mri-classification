@@ -1,0 +1,2 @@
+stage,n_estimators,rank,candidate_id,mean_macro_f1,sd_macro_f1,total_fit_seconds,inner_folds_completed,criterion,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+4,675,1,65,0.8481967159545315,0.007577902599515382,580.5488996000495,3,entropy,80.0,10,4,0.05,False

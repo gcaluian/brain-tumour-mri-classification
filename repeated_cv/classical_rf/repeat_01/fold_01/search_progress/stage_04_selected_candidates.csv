@@ -1,0 +1,2 @@
+candidate_id,mean_inner_macro_f1,sd_inner_macro_f1,total_fit_seconds,completed_inner_folds,stage,n_estimators,rank
+55,0.8425479688203624,0.01322984958653592,338.2463184000226,3,4,675,1

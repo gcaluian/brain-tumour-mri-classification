@@ -1,0 +1,41 @@
+{
+    "model_name": "HOG + GLCM + RBF SVM",
+    "dataset_variant": "cropped",
+    "dataset_partition": "Testing",
+    "training_record_count": 5600,
+    "testing_record_count": 1598,
+    "feature_count": 6102,
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "training_class_counts": {
+        "glioma": 1400,
+        "meningioma": 1400,
+        "notumor": 1400,
+        "pituitary": 1400
+    },
+    "testing_class_counts": {
+        "glioma": 400,
+        "meningioma": 400,
+        "notumor": 398,
+        "pituitary": 400
+    },
+    "accuracy": 0.8973717146433041,
+    "balanced_accuracy": 0.8975,
+    "macro_precision": 0.9000402581370467,
+    "macro_recall": 0.8975,
+    "macro_f1": 0.8947275312174834,
+    "weighted_precision": 0.9000189684835959,
+    "weighted_recall": 0.8973717146433041,
+    "weighted_f1": 0.8946499301686557,
+    "matthews_correlation_coefficient": 0.8655624886867943,
+    "cohen_kappa": 0.8631672159359088,
+    "correct_predictions": 1434,
+    "incorrect_predictions": 164,
+    "probability_estimates_available": false,
+    "multiclass_log_loss_calculated": false,
+    "evaluated_at": "2026-08-01T14:28:04.786884"
+}

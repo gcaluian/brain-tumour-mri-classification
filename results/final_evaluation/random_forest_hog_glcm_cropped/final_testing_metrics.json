@@ -1,0 +1,19 @@
+{
+  "number_of_testing_images": 1598,
+  "number_correct": 1332,
+  "accuracy": 0.8335419274092616,
+  "balanced_accuracy": 0.8337468592964825,
+  "macro_precision": 0.8310431515565252,
+  "macro_recall": 0.8337468592964825,
+  "macro_f1": 0.8278836050463975,
+  "weighted_precision": 0.8309912312549346,
+  "weighted_recall": 0.8335419274092616,
+  "weighted_f1": 0.8277547580484715,
+  "matthews_correlation_coefficient": 0.7807222477327264,
+  "cohen_kappa": 0.7780687657480706,
+  "log_loss": 0.5582395760072794,
+  "training_seconds": 258.3593493999797,
+  "training_minutes": 4.305989156666328,
+  "inference_seconds": 0.6056287000246812,
+  "milliseconds_per_image": 0.3789916771118155
+}

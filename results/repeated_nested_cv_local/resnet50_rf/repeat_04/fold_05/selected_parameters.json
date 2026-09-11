@@ -1,0 +1,39 @@
+{
+    "model": "ResNet50_fixed_features_RF",
+    "feature_dimension": 2048,
+    "repeat": 4,
+    "fold": 5,
+    "outer_split_seed": 202604,
+    "inner_cv_seed": 303405,
+    "rf_model_seed": 404405,
+    "rf_search_seed": 414405,
+    "inner_cv_folds": 3,
+    "selection_metric": "f1_macro",
+    "search_method": "manually_checkpointed_successive_halving",
+    "initial_candidates": 100,
+    "halving_factor": 3,
+    "resource": "n_estimators",
+    "tree_resources": [
+        25,
+        75,
+        225,
+        675
+    ],
+    "candidate_counts_by_iteration": {
+        "0": 100,
+        "1": 34,
+        "2": 12,
+        "3": 4
+    },
+    "winning_candidate_id": 55,
+    "selected_n_estimators": 675,
+    "best_inner_macro_f1": 0.905745785714708,
+    "best_parameters": {
+        "criterion": "gini",
+        "max_depth": 80,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": 0.1,
+        "bootstrap": false
+    }
+}

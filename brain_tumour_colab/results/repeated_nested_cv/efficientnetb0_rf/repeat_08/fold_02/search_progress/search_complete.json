@@ -1,0 +1,21 @@
+{
+    "status": "completed",
+    "model": "EfficientNetB0_fixed_features_RF",
+    "repeat": 8,
+    "outer_fold": 2,
+    "winning_candidate_id": 22,
+    "winning_parameters": {
+        "criterion": "entropy",
+        "max_depth": 20,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.1,
+        "bootstrap": false
+    },
+    "selected_n_estimators": 675,
+    "best_inner_macro_f1": 0.8951837668318646,
+    "inner_cv_seed": 303802,
+    "model_seed": 404802,
+    "search_seed": 414802,
+    "required_inner_fits": 450
+}

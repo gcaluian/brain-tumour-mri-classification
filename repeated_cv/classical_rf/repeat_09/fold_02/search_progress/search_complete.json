@@ -1,0 +1,19 @@
+{
+    "status": "completed",
+    "repeat": 9,
+    "outer_fold": 2,
+    "winning_candidate_id": 48,
+    "winning_parameters": {
+        "criterion": "entropy",
+        "max_depth": 20,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.05,
+        "bootstrap": false
+    },
+    "selected_n_estimators": 675,
+    "best_inner_macro_f1": 0.8489453760808253,
+    "inner_cv_seed": 303902,
+    "model_seed": 404902,
+    "search_seed": 414902
+}

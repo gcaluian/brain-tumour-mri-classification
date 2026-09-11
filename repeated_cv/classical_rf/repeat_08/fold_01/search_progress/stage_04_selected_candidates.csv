@@ -1,0 +1,2 @@
+stage,n_estimators,rank,candidate_id,mean_macro_f1,sd_macro_f1,total_fit_seconds,inner_folds_completed,criterion,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+4,675,1,42,0.8521988065439056,0.014928374395404466,364.5603956999257,3,gini,20.0,2,2,0.05,False

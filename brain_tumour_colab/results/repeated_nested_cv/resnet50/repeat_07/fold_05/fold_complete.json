@@ -1,0 +1,13 @@
+{
+    "status": "completed",
+    "model": "ResNet50",
+    "repeat": 7,
+    "fold": 5,
+    "selected_configuration_id": "config_01_bs8_headlr1e-03_ftlr1e-05",
+    "macro_f1": 0.9669049446542904,
+    "balanced_accuracy": 0.9669642857142857,
+    "outer_validation_used_once": true,
+    "outer_validation_used_for_selection": false,
+    "testing_images_used": false,
+    "completed_at": "2026-08-27T08:29:48.088186"
+}

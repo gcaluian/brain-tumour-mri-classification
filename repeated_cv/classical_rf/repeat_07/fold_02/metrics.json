@@ -1,0 +1,30 @@
+{
+    "model": "HOG_GLCM_RF",
+    "repeat": 7,
+    "fold": 2,
+    "split_seed": 202607,
+    "inner_cv_seed": 303702,
+    "model_seed": 404702,
+    "search_seed": 414702,
+    "n_outer_train": 4480,
+    "n_outer_validation": 1120,
+    "winning_candidate_id": 22,
+    "best_parameters": {
+        "criterion": "entropy",
+        "max_depth": 40,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.05,
+        "bootstrap": false
+    },
+    "n_estimators": 675,
+    "best_inner_macro_f1": 0.8522949032031687,
+    "accuracy": 0.8508928571428571,
+    "balanced_accuracy": 0.8508928571428571,
+    "macro_precision": 0.8505764287889367,
+    "macro_recall": 0.8508928571428571,
+    "macro_f1": 0.8496500598400311,
+    "cumulative_inner_fit_seconds": 12480.735940499464,
+    "final_refit_seconds": 324.8922288999893,
+    "prediction_seconds": 0.23138800001470372
+}

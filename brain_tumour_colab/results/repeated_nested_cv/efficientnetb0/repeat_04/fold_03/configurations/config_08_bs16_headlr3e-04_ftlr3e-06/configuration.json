@@ -1,0 +1,15 @@
+{
+    "model": "EfficientNetB0",
+    "repeat": 4,
+    "fold": 3,
+    "configuration_number": 8,
+    "configuration_id": "config_08_bs16_headlr3e-04_ftlr3e-06",
+    "batch_size": 16,
+    "head_learning_rate": 0.0003,
+    "fine_tune_learning_rate": 3e-06,
+    "model_seed": 707403,
+    "inner_split_seed": 606403,
+    "model_training_images": 4032,
+    "internal_validation_images": 448,
+    "outer_validation_used_for_selection": false
+}

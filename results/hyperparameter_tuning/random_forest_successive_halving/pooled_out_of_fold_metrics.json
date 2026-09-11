@@ -1,0 +1,14 @@
+{
+  "number_of_predictions": 5600,
+  "number_correct": 4847,
+  "accuracy": 0.8655357142857143,
+  "balanced_accuracy": 0.8655357142857142,
+  "macro_precision": 0.8649410628270604,
+  "macro_recall": 0.8655357142857142,
+  "macro_f1": 0.8647283608848811,
+  "weighted_precision": 0.8649410628270602,
+  "weighted_recall": 0.8655357142857143,
+  "weighted_f1": 0.8647283608848811,
+  "matthews_correlation_coefficient": 0.8210509786685927,
+  "cohen_kappa": 0.8207142857142857
+}

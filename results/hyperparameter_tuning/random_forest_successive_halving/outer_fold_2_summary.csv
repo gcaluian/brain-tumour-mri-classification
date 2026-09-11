@@ -1,0 +1,2 @@
+fold,best_n_estimators,best_criterion,best_max_depth,best_min_samples_split,best_min_samples_leaf,best_max_features,best_bootstrap,best_inner_macro_f1,outer_accuracy,outer_macro_f1,tuning_time_minutes
+2,675,gini,80,5,1,0.05,False,0.8440434562692184,0.8589285714285714,0.8573141208252153,362.3883890316667

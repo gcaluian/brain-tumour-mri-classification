@@ -1,0 +1,15 @@
+{
+  "model": "ResNet50_fixed_features_SVM",
+  "repeat": 5,
+  "fold": 1,
+  "outer_split_seed": 202605,
+  "inner_cv_seed": 303501,
+  "inner_cv_folds": 3,
+  "selection_metric": "f1_macro",
+  "number_of_candidates": 25,
+  "best_inner_macro_f1": 0.9417516880614211,
+  "best_parameters": {
+    "classifier__C": 10,
+    "classifier__gamma": "scale"
+  }
+}

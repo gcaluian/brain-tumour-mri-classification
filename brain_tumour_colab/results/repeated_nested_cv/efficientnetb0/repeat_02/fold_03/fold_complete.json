@@ -1,0 +1,13 @@
+{
+    "status": "completed",
+    "model": "EfficientNetB0",
+    "repeat": 2,
+    "fold": 3,
+    "selected_configuration_id": "config_01_bs8_headlr1e-03_ftlr1e-05",
+    "macro_f1": 0.9607584474247833,
+    "balanced_accuracy": 0.9607142857142857,
+    "outer_validation_used_once": true,
+    "outer_validation_used_for_selection": false,
+    "testing_images_used": false,
+    "completed_at": "2026-08-28T21:46:11.789379"
+}

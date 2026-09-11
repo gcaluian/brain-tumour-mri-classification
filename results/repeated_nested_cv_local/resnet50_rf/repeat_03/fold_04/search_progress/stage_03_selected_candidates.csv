@@ -1,0 +1,5 @@
+iter,n_resources,rank_test_score,candidate_id,mean_test_score,std_test_score,total_fit_seconds,inner_folds_completed,criterion,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+2,225,1,15,0.9126236210380062,0.006887692267818072,210.69108089990914,3,entropy,40.0,2,2,0.2,False
+2,225,2,34,0.9106251859047975,0.004303708947391887,77.65785139997024,3,gini,,2,1,0.1,False
+2,225,3,60,0.9094602596679889,0.006173845659278674,108.31346040009521,3,entropy,20.0,2,1,0.1,False
+2,225,4,92,0.908013319954842,0.002928789379651945,108.51129020005465,3,entropy,,5,2,0.1,False

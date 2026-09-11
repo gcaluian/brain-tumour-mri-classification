@@ -1,0 +1,9 @@
+{
+    "status": "completed",
+    "model": "HOG_GLCM_RF",
+    "repeat": 9,
+    "fold": 3,
+    "inner_search_completed": true,
+    "outer_evaluation_completed": true,
+    "required_outputs_verified": true
+}

@@ -1,0 +1,13 @@
+{
+    "status": "completed",
+    "model": "ResNet50_fixed_features_RF",
+    "repeat": 3,
+    "fold": 2,
+    "outer_split_seed": 202603,
+    "inner_cv_seed": 303302,
+    "rf_model_seed": 404302,
+    "rf_search_seed": 414302,
+    "inner_search_completed": true,
+    "outer_evaluation_completed": true,
+    "required_outputs_verified": true
+}

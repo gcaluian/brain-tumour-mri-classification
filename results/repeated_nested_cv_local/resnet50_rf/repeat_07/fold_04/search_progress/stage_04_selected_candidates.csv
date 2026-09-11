@@ -1,0 +1,2 @@
+iter,n_resources,rank_test_score,candidate_id,mean_test_score,std_test_score,total_fit_seconds,inner_folds_completed,criterion,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+3,675,1,66,0.9045651716934935,0.012673493125520149,329.26318330015056,3,entropy,20.0,10,1,0.1,False

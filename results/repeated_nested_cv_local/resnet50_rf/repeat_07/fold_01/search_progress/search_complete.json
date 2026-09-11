@@ -1,0 +1,21 @@
+{
+    "status": "completed",
+    "model": "ResNet50_fixed_features_RF",
+    "repeat": 7,
+    "outer_fold": 1,
+    "winning_candidate_id": 18,
+    "winning_parameters": {
+        "criterion": "entropy",
+        "max_depth": 20,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.2,
+        "bootstrap": false
+    },
+    "selected_n_estimators": 675,
+    "best_inner_macro_f1": 0.9047721171734437,
+    "inner_cv_seed": 303701,
+    "model_seed": 404701,
+    "search_seed": 414701,
+    "required_inner_fits": 450
+}

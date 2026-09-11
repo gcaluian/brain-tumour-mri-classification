@@ -1,0 +1,17 @@
+{
+    "model": "EfficientNetB0",
+    "repeat": 7,
+    "fold": 3,
+    "configuration_id": "config_05_bs16_headlr1e-03_ftlr1e-05",
+    "configuration_number": 5,
+    "batch_size": 16,
+    "head_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "selected_stage": "fine_tuning",
+    "stage_1_refit_epochs": 15,
+    "stage_2_refit_epochs": 20,
+    "internal_macro_f1": 0.9467014614314254,
+    "internal_balanced_accuracy": 0.9464285714285714,
+    "internal_log_loss": 0.1638080747238902,
+    "outer_validation_used_for_selection": false
+}

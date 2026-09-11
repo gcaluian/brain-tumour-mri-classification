@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "model": "ResNet50_fixed_features_SVM",
+  "repeat": 3,
+  "fold": 4,
+  "required_outputs_verified": true
+}

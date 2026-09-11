@@ -1,0 +1,88 @@
+{
+    "model": "ResNet50_fixed_features_RF",
+    "feature_dimension": 2048,
+    "repeat": 5,
+    "fold": 5,
+    "outer_split_seed": 202605,
+    "inner_cv_seed": 303505,
+    "rf_model_seed": 404505,
+    "rf_search_seed": 414505,
+    "outer_training_samples": 4480,
+    "outer_validation_samples": 1120,
+    "winning_candidate_id": 46,
+    "selected_n_estimators": 675,
+    "best_inner_macro_f1": 0.9064456902937296,
+    "accuracy": 0.9294642857142857,
+    "balanced_accuracy": 0.9294642857142857,
+    "macro_precision": 0.9307182390410398,
+    "macro_recall": 0.9294642857142857,
+    "macro_f1": 0.9291683437700995,
+    "confusion_matrix": [
+        [
+            243,
+            34,
+            0,
+            3
+        ],
+        [
+            8,
+            248,
+            7,
+            17
+        ],
+        [
+            0,
+            3,
+            273,
+            4
+        ],
+        [
+            2,
+            1,
+            0,
+            277
+        ]
+    ],
+    "classification_report": {
+        "glioma": {
+            "precision": 0.9604743083003953,
+            "recall": 0.8678571428571429,
+            "f1-score": 0.9118198874296435,
+            "support": 280.0
+        },
+        "meningioma": {
+            "precision": 0.8671328671328671,
+            "recall": 0.8857142857142857,
+            "f1-score": 0.8763250883392226,
+            "support": 280.0
+        },
+        "notumor": {
+            "precision": 0.975,
+            "recall": 0.975,
+            "f1-score": 0.975,
+            "support": 280.0
+        },
+        "pituitary": {
+            "precision": 0.920265780730897,
+            "recall": 0.9892857142857143,
+            "f1-score": 0.9535283993115319,
+            "support": 280.0
+        },
+        "accuracy": 0.9294642857142857,
+        "macro avg": {
+            "precision": 0.9307182390410398,
+            "recall": 0.9294642857142857,
+            "f1-score": 0.9291683437700995,
+            "support": 1120.0
+        },
+        "weighted avg": {
+            "precision": 0.93071823904104,
+            "recall": 0.9294642857142857,
+            "f1-score": 0.9291683437700994,
+            "support": 1120.0
+        }
+    },
+    "cumulative_inner_fit_seconds": 5338.137222099118,
+    "final_refit_seconds": 273.3197222999297,
+    "prediction_seconds": 0.2180385000538081
+}

@@ -1,0 +1,17 @@
+{
+    "model": "ResNet50",
+    "repeat": 6,
+    "fold": 2,
+    "configuration_id": "config_05_bs16_headlr1e-03_ftlr1e-05",
+    "configuration_number": 5,
+    "batch_size": 16,
+    "head_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "selected_stage": "fine_tuning",
+    "stage_1_refit_epochs": 14,
+    "stage_2_refit_epochs": 8,
+    "internal_macro_f1": 0.9710416221795146,
+    "internal_balanced_accuracy": 0.9709821428571428,
+    "internal_log_loss": 0.11220035007394359,
+    "outer_validation_used_for_selection": false
+}

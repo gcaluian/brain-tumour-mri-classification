@@ -1,0 +1,28 @@
+{
+    "status": "completed",
+    "repeat": 1,
+    "outer_fold": 1,
+    "inner_cv_seed": 303101,
+    "model_seed": 404101,
+    "search_seed": 414101,
+    "initial_candidates": 100,
+    "inner_cv_folds": 3,
+    "resource_sequence": [
+        25,
+        75,
+        225,
+        675
+    ],
+    "halving_factor": 3,
+    "winning_candidate_id": 55,
+    "winning_parameters": {
+        "criterion": "gini",
+        "max_depth": 80,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": 0.05,
+        "bootstrap": false
+    },
+    "selected_n_estimators": 675,
+    "best_inner_macro_f1": 0.8425479688203624
+}

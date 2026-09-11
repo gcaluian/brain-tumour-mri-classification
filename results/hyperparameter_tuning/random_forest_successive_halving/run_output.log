@@ -1,0 +1,204 @@
+Loading feature archive...
+Feature matrix shape: (5600, 6102)
+Labels shape: (5600,)
+Fold values: [1, 2, 3, 4, 5]
+
+Starting outer fold 1...
+n_iterations: 4
+n_required_iterations: 5
+n_possible_iterations: 4
+min_resources_: 25
+max_resources_: 675
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 100
+n_resources: 25
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+----------
+iter: 1
+n_candidates: 34
+n_resources: 75
+Fitting 3 folds for each of 34 candidates, totalling 102 fits
+----------
+iter: 2
+n_candidates: 12
+n_resources: 225
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+----------
+iter: 3
+n_candidates: 4
+n_resources: 675
+Fitting 3 folds for each of 4 candidates, totalling 12 fits
+
+Outer fold 1 complete.
+Best parameters: {'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 0.05, 'max_depth': 40, 'criterion': 'gini', 'bootstrap': False, 'n_estimators': 675}
+Best inner macro F1-score: 0.8419
+Outer validation accuracy: 0.8634
+Outer validation macro F1-score: 0.863
+Tuning time: 312.75 minutes
+Checkpoint saved: C:\Users\kwsta\OneDrive\Desktop\Desetation project\brain-tumour-mri-classification\results\hyperparameter_tuning\random_forest_successive_halving\outer_fold_1_summary.csv
+
+Starting outer fold 2...
+n_iterations: 4
+n_required_iterations: 5
+n_possible_iterations: 4
+min_resources_: 25
+max_resources_: 675
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 100
+n_resources: 25
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+----------
+iter: 1
+n_candidates: 34
+n_resources: 75
+Fitting 3 folds for each of 34 candidates, totalling 102 fits
+----------
+iter: 2
+n_candidates: 12
+n_resources: 225
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+----------
+iter: 3
+n_candidates: 4
+n_resources: 675
+Fitting 3 folds for each of 4 candidates, totalling 12 fits
+
+Outer fold 2 complete.
+Best parameters: {'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 0.05, 'max_depth': 80, 'criterion': 'gini', 'bootstrap': False, 'n_estimators': 675}
+Best inner macro F1-score: 0.844
+Outer validation accuracy: 0.8589
+Outer validation macro F1-score: 0.8573
+Tuning time: 362.39 minutes
+Checkpoint saved: C:\Users\kwsta\OneDrive\Desktop\Desetation project\brain-tumour-mri-classification\results\hyperparameter_tuning\random_forest_successive_halving\outer_fold_2_summary.csv
+
+Starting outer fold 3...
+n_iterations: 4
+n_required_iterations: 5
+n_possible_iterations: 4
+min_resources_: 25
+max_resources_: 675
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 100
+n_resources: 25
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+----------
+iter: 1
+n_candidates: 34
+n_resources: 75
+Fitting 3 folds for each of 34 candidates, totalling 102 fits
+----------
+iter: 2
+n_candidates: 12
+n_resources: 225
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+----------
+iter: 3
+n_candidates: 4
+n_resources: 675
+Fitting 3 folds for each of 4 candidates, totalling 12 fits
+
+Outer fold 3 complete.
+Best parameters: {'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 0.05, 'max_depth': 80, 'criterion': 'gini', 'bootstrap': False, 'n_estimators': 675}
+Best inner macro F1-score: 0.8427
+Outer validation accuracy: 0.8777
+Outer validation macro F1-score: 0.8771
+Tuning time: 312.14 minutes
+Checkpoint saved: C:\Users\kwsta\OneDrive\Desktop\Desetation project\brain-tumour-mri-classification\results\hyperparameter_tuning\random_forest_successive_halving\outer_fold_3_summary.csv
+
+Starting outer fold 4...
+n_iterations: 4
+n_required_iterations: 5
+n_possible_iterations: 4
+min_resources_: 25
+max_resources_: 675
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 100
+n_resources: 25
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+----------
+iter: 1
+n_candidates: 34
+n_resources: 75
+Fitting 3 folds for each of 34 candidates, totalling 102 fits
+----------
+iter: 2
+n_candidates: 12
+n_resources: 225
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+----------
+iter: 3
+n_candidates: 4
+n_resources: 675
+Fitting 3 folds for each of 4 candidates, totalling 12 fits
+
+Outer fold 4 complete.
+Best parameters: {'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 0.05, 'max_depth': 80, 'criterion': 'gini', 'bootstrap': False, 'n_estimators': 675}
+Best inner macro F1-score: 0.8503
+Outer validation accuracy: 0.8616
+Outer validation macro F1-score: 0.8606
+Tuning time: 349.91 minutes
+Checkpoint saved: C:\Users\kwsta\OneDrive\Desktop\Desetation project\brain-tumour-mri-classification\results\hyperparameter_tuning\random_forest_successive_halving\outer_fold_4_summary.csv
+
+Starting outer fold 5...
+n_iterations: 4
+n_required_iterations: 5
+n_possible_iterations: 4
+min_resources_: 25
+max_resources_: 675
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 100
+n_resources: 25
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+----------
+iter: 1
+n_candidates: 34
+n_resources: 75
+Fitting 3 folds for each of 34 candidates, totalling 102 fits
+----------
+iter: 2
+n_candidates: 12
+n_resources: 225
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+----------
+iter: 3
+n_candidates: 4
+n_resources: 675
+Fitting 3 folds for each of 4 candidates, totalling 12 fits
+
+Outer fold 5 complete.
+Best parameters: {'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 0.02, 'max_depth': 60, 'criterion': 'gini', 'bootstrap': False, 'n_estimators': 675}
+Best inner macro F1-score: 0.8411
+Outer validation accuracy: 0.8661
+Outer validation macro F1-score: 0.8655
+Tuning time: 352.46 minutes
+Checkpoint saved: C:\Users\kwsta\OneDrive\Desktop\Desetation project\brain-tumour-mri-classification\results\hyperparameter_tuning\random_forest_successive_halving\outer_fold_5_summary.csv
+
+Completed successive-halving results:
+ fold  best_n_estimators best_criterion  best_max_depth  best_min_samples_split  best_min_samples_leaf  best_max_features  best_bootstrap  best_inner_macro_f1  outer_accuracy  outer_macro_f1  tuning_time_minutes
+    1                675           gini              40                       2                      2               0.05           False             0.841899        0.863393        0.862991           312.747047
+    2                675           gini              80                       5                      1               0.05           False             0.844043        0.858929        0.857314           362.388389
+    3                675           gini              80                       5                      1               0.05           False             0.842736        0.877679        0.877141           312.143969
+    4                675           gini              80                       5                      1               0.05           False             0.850254        0.861607        0.860604           349.905098
+    5                675           gini              60                       5                      2               0.02           False             0.841101        0.866071        0.865475           352.462110
+
+Completed outer folds: 5
+Mean outer validation accuracy: 0.8655
+Outer accuracy standard deviation: 0.0073
+Mean outer validation macro F1-score: 0.8647
+Outer macro F1-score standard deviation: 0.0076
+Runtime during this execution: 1689.69 minutes

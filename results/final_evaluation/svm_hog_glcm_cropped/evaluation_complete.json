@@ -1,0 +1,10 @@
+{
+    "status": "completed",
+    "model_path": "C:\\Users\\kwsta\\OneDrive\\Desktop\\Desetation project\\brain-tumour-mri-classification\\models\\svm_hog_glcm_cropped.joblib",
+    "results_directory": "C:\\Users\\kwsta\\OneDrive\\Desktop\\Desetation project\\brain-tumour-mri-classification\\results\\final_evaluation\\svm_hog_glcm_cropped",
+    "training_records": 5600,
+    "testing_records": 1598,
+    "accuracy": 0.8973717146433041,
+    "macro_f1": 0.8947275312174834,
+    "completed_at": "2026-08-01T14:28:04.794514"
+}

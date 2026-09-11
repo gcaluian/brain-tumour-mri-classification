@@ -1,0 +1,17 @@
+{
+    "feature_archive_loading_seconds": 1.0280519000079948,
+    "final_training_seconds": 88.12473849998787,
+    "final_training_minutes": 1.4687456416664646,
+    "model_saving_seconds": 9.403897000011057,
+    "testing_prediction_seconds": 50.46163229999365,
+    "testing_prediction_milliseconds_per_image": 31.577992678343964,
+    "testing_decision_score_seconds": 48.84975900000427,
+    "complete_cell_seconds": 198.03396410000278,
+    "complete_cell_minutes": 3.3005660683333797,
+    "timing_notes": {
+        "final_training_seconds": "Includes StandardScaler fitting, feature transformation and SVC fitting on all 5,600 Training records.",
+        "testing_prediction_seconds": "Includes StandardScaler transformation and SVC prediction for the 1,598 pre-extracted Testing feature vectors.",
+        "feature_extraction": "HOG and GLCM Testing feature extraction was performed previously and is not included in the model prediction timing.",
+        "decision_scores": "Decision scores are uncalibrated SVM scores, not class probabilities."
+    }
+}

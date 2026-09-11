@@ -1,0 +1,38 @@
+{
+    "pipeline": [
+        {
+            "step": "feature_scaling",
+            "estimator": "StandardScaler",
+            "with_mean": true,
+            "with_std": true
+        },
+        {
+            "step": "svm_classifier",
+            "estimator": "SVC",
+            "kernel": "rbf",
+            "C": 10.0,
+            "gamma_parameter": "scale",
+            "resolved_gamma": 0.00016388069483854384,
+            "probability": false,
+            "decision_function_shape": "ovr"
+        }
+    ],
+    "hyperparameter_selection": "Selected using nested cross-validation on the 5,600 Training images",
+    "additional_tuning_during_final_training": false,
+    "testing_data_used_during_model_selection": false,
+    "total_support_vectors": 4219,
+    "support_vectors_per_class": {
+        "glioma": 1215,
+        "meningioma": 1331,
+        "notumor": 607,
+        "pituitary": 1066
+    },
+    "decision_score_class_order": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "scikit_learn_version": "1.6.1",
+    "created_at": "2026-08-01T14:28:04.786884"
+}

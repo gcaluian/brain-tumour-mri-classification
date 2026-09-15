@@ -17,6 +17,18 @@ The aim of the project was to compare different approaches to classifying brain 
 The study compared traditional machine learning models, deep learning models and hybrid approaches using features extracted from convolutional neural networks.
 
 
+## Dataset
+
+The project used the Kaggle Brain Tumour MRI Dataset for supervised four-class image classification.
+
+The four classes are:
+
+- Glioma
+- Meningioma
+- Pituitary tumour
+- No tumour
+
+
 ## Models Evaluated
 
 Eight model configurations were evaluated:

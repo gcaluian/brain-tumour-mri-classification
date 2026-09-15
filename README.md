@@ -4,6 +4,7 @@ A comparative study of classical machine learning, deep learning and hybrid mode
 
 This project was completed as part of the MSc Data Science programme at Birkbeck, University of London.
 
+
 ## Project Overview
 
 The aim of the project was to compare different approaches to classifying brain MRI images into four classes:
@@ -14,6 +15,7 @@ The aim of the project was to compare different approaches to classifying brain 
 - No tumour
 
 The study compared traditional machine learning models, deep learning models and hybrid approaches using features extracted from convolutional neural networks.
+
 
 ## Models Evaluated
 
@@ -28,6 +30,7 @@ Eight model configurations were evaluated:
 - EfficientNetB0 features with Support Vector Machine
 - EfficientNetB0 features with Random Forest
 
+
 ## Evaluation
 
 Models were evaluated using repeated stratified cross-validation and a separate held-out test set.
@@ -36,12 +39,21 @@ Macro F1-score was used as the main evaluation metric.
 
 The best-performing model was:
 
+
 **EfficientNetB0 features + Support Vector Machine**
 
 Results:
 
 - Mean macro F1 across repeated cross-validation: **0.9636**
 - Held-out test macro F1: **0.9405**
+
+
+## Results Summary
+
+The figure below compares cross-validation and held-out test macro F1 scores across the evaluated models.
+
+![Cross-validation and held-out test macro F1 scores](notebooks/cv_vs_testing_macro_f1_all_models.png)
+
 
 ## Technologies
 

@@ -55,6 +55,17 @@ The figure below compares cross-validation and held-out test macro F1 scores acr
 ![Cross-validation and held-out test macro F1 scores](notebooks/cv_vs_testing_macro_f1_all_models.png)
 
 
+## Project Structure
+
+- `notebooks/` – data exploration, model development, evaluation and statistical analysis
+- `scripts/` – supporting Python scripts
+- `results/` – model evaluation and hyperparameter tuning outputs
+- `repeated_cv/` – repeated cross-validation results
+- `splits/` – dataset split information
+- `project_protocol.md` – project protocol and methodology
+
+
+
 ## Technologies
 
 - Python
